@@ -1,0 +1,24 @@
+# CollageRecipe
+
+Simplified collage making:
+
+To make a collage:
+1. Add your photos in a subfolder such as selected/
+2. Create a file spec.files that has the format
+   
+   file11.jpg
+   file12.jpg
+   file13.jpg
+   file14.jpg
+
+   file21.jpg
+   file22.jpg
+   file23.jpg
+
+Thene file11 will be the first photo on line 1, file23 will be the third photo on line 2, etc.
+You can use any image that will be displayed in a <img> HTML tag. Use newline to separate photo lines.
+
+3. Run genson.py - this will create the json file that the webpage can understand.
+4. Open a browser and point it to localhost:8000 - there you will see the rendering, and you can choose to adjust it by rearranging the photos.
+5. Run .... something with wk2pdf to create the standalone PDF.	  
+
