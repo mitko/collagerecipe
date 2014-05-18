@@ -11,14 +11,18 @@ d3.json("images.json", function(error, paths) {
 			})
 		    .style("-webkit-transform", function(d, j) {
 			    var step = 5;
+			    /* rotate slightly each image to give impression of physical photos */
 			    return "rotate(" + ( (j - nPhotos/2 + 1) * step) + "deg)";
 			})
 		    .style("-webkit-filter", function(d, j) {
 			    if ((i + j) % 3 === 0) {
+				/* every third image add less saturation and reduce contrast */
 				return "saturate(-1) contrast(90%)";
 			    } else if ((i + j) % 3 === 1) {
+				/* every third image add less saturation */
 				return "saturate(-1)";
 			    } else {
+				/* every third image reduce contrast */
 				return "contrast(90%)";
 			    }
 			});
