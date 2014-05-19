@@ -1,3 +1,5 @@
 *~
+*.recipe
 images.json
 *-full.png
+images/

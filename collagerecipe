@@ -5,5 +5,5 @@
 # ./collagerecipe example.recipe `whoami`
 
 python generate_json.py $1
-webkit2png -F -z 2.8 --delay=2 -o $2 http://localhost:8000
+webkit2png -F -z 1.3 --delay=5 -W 3000 -o $2 http://localhost:8000
 open $2-full.png
