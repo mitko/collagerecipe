@@ -63,10 +63,10 @@ where file{i}{j}.jpg is the j-th file on the i-th row. Note the new-line separat
    * copy your images over. Create a folder called "images" or "birthday_collage" or whatever you want *within* the collagerecipe main folder and put your images there. It is important that your images are within the collagerecipe folder so that they are served by the server you setup in step 3. 
    * decide which images should be on which row. Create "mycollage.recipe" or "my.collage" or "birthday.images" or whatever you want text file and add the paths to the images you like. 
    * run 
-   ```   
-   ./collagerecipe RECIPE_FILE COLLAGE_NAME
-   ```   
-   replacing RECIPE_FILE with the file you just made including the images, and COLLAGE_NAME with the name of output file you want. You can then see your collage.
+      ```   
+      ./collagerecipe RECIPE_FILE COLLAGE_NAME
+      ```		         
+      replacing RECIPE_FILE with the file you just made including the images, and COLLAGE_NAME with the name of output file you want. You can then see your collage.
    * Iterate! You can change the order of the images. You can also use your favorite image editing software to crop the images or add any effects. I usually just crop them in Preview to the desired part of the image. You can also open collage.js or index.html and add effects in bulk.
 
 ## Getting started (Windows or Linux)
