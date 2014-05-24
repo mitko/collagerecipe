@@ -4,6 +4,8 @@ Easy and straightforward way to create beatuful collages like this one:
 
 TODO a lot of photos of food
 
+![Bay to breakers](https://dl.dropboxusercontent.com/s/xjnb5dpws0wkhr7/bay2breakers_good_small.jpg)
+
 No dealing with heavyweight clunky image-editing software like GIMP or Photoshop.
 Create your collages manually, or programmatically.
 
@@ -12,7 +14,7 @@ Create your collages manually, or programmatically.
 All you need to do is to select the images (which you have to do anyway) and describe which image goes to which row of images, at which possition.
 In other words you create the "recipe" that looks like this
 
-   
+```
    file11.jpg
    file12.png
    file13.jpeg
@@ -23,6 +25,7 @@ In other words you create the "recipe" that looks like this
    file23.jpg
 
    ...
+```
 
 where file{i}{j}.jpg is the j-th file on the i-th row. Note the new-line separation between rows.
 
