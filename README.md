@@ -33,15 +33,18 @@ where file{i}{j}.jpg is the j-th file on the i-th row. Note the new-line separat
    http://brew.sh/ 
 ```   
 and follow the instructions. It is pretty simple. You only need it in order to install webkit2png in the next step.
+
 2. Install webkit2png. Collagerecipe uses it for rendering the collage to PNG image.
 ```   
    cd collagerecipe/
    ./install.sh
 ```   
+
 3. Create local server. This is how we the images that you have reach the rendering system
 ```   
    ./setup.sh
 ```   
+
 4. Verify that everything is setup correctly
 ```   
    ./collagerecipe example.recipe `whoami`
@@ -52,6 +55,7 @@ The new image file should be in the directory where you installed collagerecipe:
 ```   
    ls | grep full.png
 ```   
+
 5. Create your recipe! 
    
 * See example.recipe and example_data see the recipe format. The format is pretty minimal. All you can do is say which images go in which order on which line
