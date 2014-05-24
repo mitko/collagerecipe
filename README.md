@@ -45,16 +45,18 @@ where file{i}{j}.jpg is the j-th file on the i-th row. Note the new-line separat
    ./setup.sh
    ```   
 
-4. Verify that everything is setup correctly
+4. Test run to Verify that everything is setup correctly
    ```   
    ./collagerecipe example.recipe `whoami`
    ```   
-   You should see an image that looks like the image above. Awesome! You are ALL SET to create your own collages by now!
+   You should see an image that looks exactly like the image below. Awesome! You are **ALL SET** to create your own collages by now!
 
    The new image file should be in the directory where you installed collagerecipe:
    ```   
    ls | grep full.png
    ```   
+
+   ![example collage] (https://dl.dropboxusercontent.com/s/59fo2j4g897q7s9/mitko-full_small.jpg)
 
 5. Create your recipe!    
    * See example.recipe and example_data see the recipe format. The format is pretty minimal. All you can do is say which images go in which order on which line
