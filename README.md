@@ -40,8 +40,11 @@ where file{i}{j}.jpg is the j-th file on the i-th row. Note the new-line separat
    ./install.sh
    ```   
 
-3. Create local server. This is how we the images that you have reach the rendering system
+3. Start local server. This is how we the images that you have reach the rendering system.
+
+   In a new terminal do:
    ```   
+   cd collagerecipe/
    ./setup.sh
    ```   
 
@@ -51,7 +54,7 @@ where file{i}{j}.jpg is the j-th file on the i-th row. Note the new-line separat
    ```   
    You should see an image that looks exactly like the image below. Awesome! You are **ALL SET** to create your own collages by now!
 
-   The new image file should be in the directory where you installed collagerecipe:
+   The new image file should be in the directory where you installed collagerecipe. You can find it by running:
    ```   
    ls | grep full.png
    ```   
@@ -59,7 +62,7 @@ where file{i}{j}.jpg is the j-th file on the i-th row. Note the new-line separat
    ![example collage] (https://dl.dropboxusercontent.com/s/59fo2j4g897q7s9/mitko-full_small.jpg)
 
 5. Create your collage!    
-   * See example.recipe and example_data see the recipe format. The format is pretty minimal. All you can do is say which images go in which order on which line
+   * See example.recipe and example_data see the recipe format. The format is pretty minimal. All you can do is say which images go in which order on which row
    * copy your images over. Create a folder called "images" or "birthday_collage" or whatever you want *within* the collagerecipe main folder and put your images there. It is important that your images are within the collagerecipe folder so that they are served by the server you setup in step 3. 
    * decide which images should be on which row. Create "mycollage.recipe" or "my.collage" or "birthday.images" or whatever you want text file and add the paths to the images you like. 
    * run 
@@ -77,7 +80,7 @@ where file{i}{j}.jpg is the j-th file on the i-th row. Note the new-line separat
 
    * **Q**: how to crop an image
 
-   **A**: Crop the image using external software (for example Preview on Mac has Cmd-K for cropping). Then re-create your collage and see if 
+   **A**: Crop the image using external software (for example Preview on Mac has Cmd-K for cropping). Then re-create your collage and see if you like it.
 
    * **Q**: how to add fancy effects
 
