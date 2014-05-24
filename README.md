@@ -58,7 +58,7 @@ where file{i}{j}.jpg is the j-th file on the i-th row. Note the new-line separat
 
    ![example collage] (https://dl.dropboxusercontent.com/s/59fo2j4g897q7s9/mitko-full_small.jpg)
 
-5. Create your recipe!    
+5. Create your collage!    
    * See example.recipe and example_data see the recipe format. The format is pretty minimal. All you can do is say which images go in which order on which line
    * copy your images over. Create a folder called "images" or "birthday_collage" or whatever you want *within* the collagerecipe main folder and put your images there. It is important that your images are within the collagerecipe folder so that they are served by the server you setup in step 3. 
    * decide which images should be on which row. Create "mycollage.recipe" or "my.collage" or "birthday.images" or whatever you want text file and add the paths to the images you like. 
@@ -68,6 +68,20 @@ where file{i}{j}.jpg is the j-th file on the i-th row. Note the new-line separat
       ```		         
       replacing RECIPE_FILE with the file you just made including the images, and COLLAGE_NAME with the name of output file you want. You can then see your collage.
    * Iterate! You can change the order of the images. You can also use your favorite image editing software to crop the images or add any effects. I usually just crop them in Preview to the desired part of the image. You can also open collage.js or index.html and add effects in bulk.
+
+## How to ...
+
+   * Q: how to change the order of two images on the same row
+   A: Change the order of the image paths in the .recipe file
+
+   * Q: how to crop an image
+   A: Crop the image using external software (for example Preview on Mac has Cmd-K for cropping). Then re-create your collage and see if 
+
+   * Q: how to add fancy effects
+   A: look at the file ```collage.js```. It currently adds some CSS effects to some of the images. Play with it. 
+
+   * Q: how to iterate on effects faster
+   A: open ```localhost:8000``` and you can see HTML rendering of the collage. Use your browser's developement tools to muck with the CSS and see what looks good.
 
 ## Getting started (Windows or Linux)
 
