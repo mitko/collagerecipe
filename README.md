@@ -71,17 +71,21 @@ where file{i}{j}.jpg is the j-th file on the i-th row. Note the new-line separat
 
 ## How to ...
 
-   * Q: how to change the order of two images on the same row
-   A: Change the order of the image paths in the .recipe file
+   * **Q**: how to change the order of two images on the same row
 
-   * Q: how to crop an image
-   A: Crop the image using external software (for example Preview on Mac has Cmd-K for cropping). Then re-create your collage and see if 
+   **A**: Change the order of the image paths in the .recipe file
 
-   * Q: how to add fancy effects
-   A: look at the file ```collage.js```. It currently adds some CSS effects to some of the images. Play with it. 
+   * **Q**: how to crop an image
 
-   * Q: how to iterate on effects faster
-   A: open ```localhost:8000``` and you can see HTML rendering of the collage. Use your browser's developement tools to muck with the CSS and see what looks good.
+   **A**: Crop the image using external software (for example Preview on Mac has Cmd-K for cropping). Then re-create your collage and see if 
+
+   * **Q**: how to add fancy effects
+
+   **A**: look at the file ```collage.js```. It currently adds some CSS effects to some of the images. Play with it. 
+
+   * **Q**: how to iterate on effects faster
+
+   **A**: open ```localhost:8000``` and you can see HTML rendering of the collage. Use your browser's developement tools to muck with the CSS and see what looks good.
 
 ## Getting started (Windows or Linux)
 
