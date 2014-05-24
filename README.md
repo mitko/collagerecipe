@@ -56,8 +56,7 @@ The new image file should be in the directory where you installed collagerecipe:
    ls | grep full.png
 ```   
 
-5. Create your recipe! 
-   
+5. Create your recipe!    
 * See example.recipe and example_data see the recipe format. The format is pretty minimal. All you can do is say which images go in which order on which line
 * copy your images over. Create a folder called "images" or "birthday_collage" or whatever you want *within* the collagerecipe main folder and put your images there. It is important that your images are within the collagerecipe folder so that they are served by the server you setup in step 3. 
 * decide which images should be on which row. Create "mycollage.recipe" or "my.collage" or "birthday.images" or whatever you want text file and add the paths to the images you like. 
